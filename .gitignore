@@ -1,0 +1,55 @@
+# Fisiere de sistem
+.DS_Store
+Thumbs.db
+
+# Fisiere de configurare locală
+configuration.php
+
+# Cache Joomla
+/cache/
+/administrator/cache/
+
+# Fișiere temporare
+/tmp/
+/logs/
+/administrator/logs/
+
+# Backup-uri
+*.zip
+*.tar.gz
+*.bak
+*.sql
+*.jpa
+*.log
+
+# Cache generat de extensii
+/media/plg_jch_optimize/
+media/com_jce/
+media/com_acym/
+media/com_akeeba/
+
+# Node/npm (dacă ai folosit asset-uri front-end moderne)
+node_modules/
+dist/
+build/
+
+# IDE-uri și editoare
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Composer (dacă folosești Joomla 5 + extensii moderne)
+vendor/
+composer.lock
+
+# Fișiere de test sau export
+/tests/
+*.env
+*.local
+
+# Alte directoare de backup sau sincronizare
+/sync/
+/backup/
+/export/
+
